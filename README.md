@@ -13,7 +13,8 @@ Para ejecutar la aplicación Flask, sigue estos pasos:
    ```bash
    pip install Flask Flask-MySQLdb
 
-#Atención!! Por problemas de instalación no contaba con Docker al momento de realizar el trabajo designado, por lo que a continuación expongo los pasos necesarios para demostrar mis conocimientos en la herramienta
+## Atención!! 
+Por problemas de instalación no contaba con Docker al momento de realizar el trabajo designado, por lo que a continuación expongo los pasos necesarios para demostrar mis conocimientos en la herramienta
 
 # Dockerfile
 
