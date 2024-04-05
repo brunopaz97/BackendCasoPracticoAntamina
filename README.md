@@ -28,6 +28,5 @@ Para ejecutar la aplicación Flask, sigue estos pasos:
 
 # Bash
 
-   ```bash
    docker build -t my-flask-app .
    docker run -d -p 5000:5000 --name my-flask-container my-flask-app
