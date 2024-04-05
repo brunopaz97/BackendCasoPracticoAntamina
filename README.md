@@ -17,15 +17,17 @@ Para ejecutar la aplicación Flask, sigue estos pasos:
 
 # Dockerfile
 
-FROM python:3.9-slim
-WORKDIR /app
-COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
-COPY . .
-EXPOSE 5000
-CMD ["python", "app.py"]
+   ```bash
+   FROM python:3.9-slim
+   WORKDIR /app
+   COPY requirements.txt .
+   RUN pip install --no-cache-dir -r requirements.txt
+   COPY . .
+   EXPOSE 5000
+   CMD ["python", "app.py"]
 
 # Bash
 
-docker build -t my-flask-app .
-docker run -d -p 5000:5000 --name my-flask-container my-flask-app
+   ```bash
+   docker build -t my-flask-app .
+   docker run -d -p 5000:5000 --name my-flask-container my-flask-app
